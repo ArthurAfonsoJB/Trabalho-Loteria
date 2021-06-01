@@ -146,9 +146,9 @@ programa
 
 	funcao receberApostas(inteiro &nmrCartelaUser, inteiro jogo[]){
 
-		inteiro novoNmr, userReserva[50], repetir, reAleatoriar, vezes = 0, erro = 0
+		inteiro novoNmr, userReserva[51], repetir, reAleatoriar, vezes = 0, erro = 0
 		inteiro userInt, respostaMudar, respostaMudarTrocar
-		cadeia resposta, respostaReAleatoriar = "", naoTrocar[50]
+		cadeia resposta, respostaReAleatoriar = "", naoTrocar[51]
 		
 		para(inteiro i=0; i < nmrCartelaUser; i++){
 
